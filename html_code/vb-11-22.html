@@ -1,0 +1,105 @@
+<!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <!-- Norm - VB Stats Tracker     Date: 2014-11-10 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>VB Homepage</title>
+
+<link rel='stylesheet' type='text/css' href='css/vbStyles.css' />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+</script>
+<script src='/js/vbScript.js' type='text/javascript' > </script>
+<!--
+<a id='pageTitle' value='<h1>VB Court</h1>' />
+-->
+
+</head>
+
+<body>
+<div id=hdr >
+  <span id=scrnName>Main</span>
+  <span><button class=exit id=done><b>DONE</b></button></span>
+  <span><button class=exit id=order><b>SETUP</b></button></span>
+</div>
+<hr />
+
+<div id=frameC> <!-- Court -->
+<!-- Visitors Court -->
+<div id=vist align=center>
+  <button class=btnA id=vSrv>SERVE</button> <br />
+  <button class=btnv id=V5>V5</button>
+  <button class=btnv id=V4>V4</button>
+  <br>
+  <button class=btnv id=V6>V6</button>
+  <button class=btnv id=V3>V3</button>
+  <br>
+  <button class=btnv id=V1>V1</button>
+  <button class=btnv id=V2>V2</button>
+  <br>
+  <button class=btnA id=rSubV>RSub</button>
+</div>
+
+<!-- End Visitors Court -->
+
+
+<div class=scrbd  id=scrbd align=center >  <!-- Scoreboard -->
+  <a style='color:blue; font-size:500%'>
+    V-<span id=vistscr>00</span>
+  </a>
+    <button class=tov>TO-1</button>
+    <button class=tov>TO-2</button>
+    <button class=tov>TO-3</button>
+  <hr />
+    <button class=toh>TO-1</button>
+    <button class=toh>TO-2</button>
+    <button class=toh>TO-3</button>
+
+  <a style='color:red; font-size:500%'>
+    H-<span id=homescr>01</span>
+  </a>
+</div>  <!-- End scoreboard -->
+
+ <!-- Home Court -->
+<div id=home align=center >
+  <button class=btnA id=hSrv>SERVE</button> <br />
+  <button class=btnh id=H2>H2</button>
+  <button class=btnh id=H1>H1</button>
+  <br />
+  <button class=btnh id=H3>H3</button>
+  <button class=btnh id=H6>H6</button>
+  <br />
+  <button class=btnh id=H4>H4</button>
+  <button class=btnh id=H5>H5</button>
+  <br />
+  <button class=btnA id=rSubH>RSub</button>
+  <br />
+  <br />
+  <br />
+</div>
+<!-- End Home Court --> 
+</div>   <!-- End Court --> 
+
+<div id=frameA>  <!-- Scoring Buttons -->
+<div id=actn>
+  <button class=btnA id=ace>ACE</button>
+  <button class=btnA id=sErr>Srv Err</button>
+  <br />
+  <button class=btnA id=hit>HIT</button>
+  <button class=btnA id=hitErr>Hit Err</button>
+  <button class=btnA id=kill>KILL</button>
+  <br />
+  <button class=btnA id=dig >DIG</button>
+  <button class=btnA id=digErr>Dig Err</button>
+  <button class=btnA id=sub style='float:right' >SUB</button>
+</div> 
+</div>  <!-- End Scoring Buttons --> 
+
+<div id=frameT visible=false >
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,23 @@
+body  { font-family:sans-serif; width:100%;
+        font-size:larger; font-weight:bold; }
+.error {color:red}
+hr { margin:5px; }
+div { margin-bottom:20px }
+button { font-weight:bold; font-size:19px; }
+.btnA { color:green; width:150px; height:40px; margin:5px }
+.btnv { color:blue; width:100px; height:45px; margin:5px }
+.btnh { color:red; width:100px; height:45px; margin:5px }
+.exit { margin-right:25px; float:right }
+.toh  { font-size:18px; width:26%; margin:5px }
+.tov  { font-size:18px; width:26%; margin:5px }
+.presV { color:white; background-color:blue; }	
+.presH { color:white; background-color:red; }
+.presS { color:white; background-color:green; }
+
+#hdr { width:95%; height:20px; margin:10px; padding:10px; }
+#vist { width:30%; padding:5px; float:left }
+#scrbd { width:30%; border-style:double;
+         padding:5px; height:300px; float:left }
+#home { width:30%;  padding:5px; float:left }
+#actn { height:200px; padding:50px; padding-top:5px;  }
+
